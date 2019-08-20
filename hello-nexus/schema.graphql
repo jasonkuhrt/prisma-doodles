@@ -3,6 +3,7 @@
 
 
 type Query {
+  moods: [String!]!
   name: String!
   user(id: ID!): User
 }
